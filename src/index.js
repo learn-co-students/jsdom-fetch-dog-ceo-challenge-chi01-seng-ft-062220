@@ -95,9 +95,3 @@ function filtered(){
         })
     })
 }
-
-function updateBreeds(breeds){
-    let container = document.getElementById('dog-breeds');
-    removeChildren(container);
-    breeds.forEach(breed => addBreed(breed));
-}
